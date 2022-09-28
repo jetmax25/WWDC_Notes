@@ -1,13 +1,8 @@
 //: [Previous](@previous)
 
 import Foundation
-
-var greeting = "Hello, playground"
-
-//: # Index
-
 /*:
+# Index
 ## WWDC 2020
-∂
 [Next](@next)
 */
