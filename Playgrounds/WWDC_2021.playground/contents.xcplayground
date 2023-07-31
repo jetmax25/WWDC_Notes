@@ -4,5 +4,8 @@
         <page name='Index'/>
         <page name='Platform State Of The Union'/>
         <page name='Embrace Expected Failures in XCTest'/>
+        <page name='Async Await'/>
+        <page name='Discover Concurrency In SwiftUI'/>
+        <page name='Explore Structured Concurrency In Swift'/>
     </pages>
 </playground>
