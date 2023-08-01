@@ -11,7 +11,29 @@
 		523C5DA12A7817E900CCB5B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DA02A7817E900CCB5B2 /* ContentView.swift */; };
 		523C5DA32A7817EA00CCB5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C5DA22A7817EA00CCB5B2 /* Assets.xcassets */; };
 		523C5DA62A7817EA00CCB5B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C5DA52A7817EA00CCB5B2 /* Preview Assets.xcassets */; };
+		523C5DAD2A78182000CCB5B2 /* SpacePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DAC2A78182000CCB5B2 /* SpacePhoto.swift */; };
+		523C5DB02A78189700CCB5B2 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DAF2A78189700CCB5B2 /* Photos.swift */; };
+		523C5DB52A7818EB00CCB5B2 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DB42A7818EB00CCB5B2 /* PhotoView.swift */; };
+		523C5DB72A7819EB00CCB5B2 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DB62A7819EB00CCB5B2 /* CatalogView.swift */; };
+		523C5DB92A781D4200CCB5B2 /* AstronomyPicOfTheDay.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523C5DB82A781D4200CCB5B2 /* AstronomyPicOfTheDay.plist */; };
+		523C5DBB2A781FD700CCB5B2 /* SpacePhotoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DBA2A781FD700CCB5B2 /* SpacePhotoFetcher.swift */; };
+		523C5DBD2A7820DC00CCB5B2 /* AstronomyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DBC2A7820DC00CCB5B2 /* AstronomyURL.swift */; };
+		523C5DC52A78256900CCB5B2 /* SpaceTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DC42A78256900CCB5B2 /* SpaceTestTests.swift */; };
+		523C5DCC2A782B3400CCB5B2 /* AstronomyPicOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DCB2A782B3400CCB5B2 /* AstronomyPicOfTheDay.swift */; };
+		523C5DCE2A79788600CCB5B2 /* AsyncPhotoOfTheDaySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DCD2A79788600CCB5B2 /* AsyncPhotoOfTheDaySequence.swift */; };
+		523C5DD02A797B0B00CCB5B2 /* PicByDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DCF2A797B0B00CCB5B2 /* PicByDateView.swift */; };
+		523C5DD22A79829500CCB5B2 /* EndlessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C5DD12A79829500CCB5B2 /* EndlessView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		523C5DC62A78256900CCB5B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523C5D932A7817E900CCB5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523C5D9A2A7817E900CCB5B2;
+			remoteInfo = SpaceTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		523C5D9B2A7817E900CCB5B2 /* SpaceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +41,30 @@
 		523C5DA02A7817E900CCB5B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		523C5DA22A7817EA00CCB5B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523C5DA52A7817EA00CCB5B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		523C5DAC2A78182000CCB5B2 /* SpacePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhoto.swift; sourceTree = "<group>"; };
+		523C5DAF2A78189700CCB5B2 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		523C5DB42A7818EB00CCB5B2 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		523C5DB62A7819EB00CCB5B2 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		523C5DB82A781D4200CCB5B2 /* AstronomyPicOfTheDay.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AstronomyPicOfTheDay.plist; sourceTree = "<group>"; };
+		523C5DBA2A781FD700CCB5B2 /* SpacePhotoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhotoFetcher.swift; sourceTree = "<group>"; };
+		523C5DBC2A7820DC00CCB5B2 /* AstronomyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyURL.swift; sourceTree = "<group>"; };
+		523C5DC22A78256900CCB5B2 /* SpaceTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		523C5DC42A78256900CCB5B2 /* SpaceTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTestTests.swift; sourceTree = "<group>"; };
+		523C5DCB2A782B3400CCB5B2 /* AstronomyPicOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPicOfTheDay.swift; sourceTree = "<group>"; };
+		523C5DCD2A79788600CCB5B2 /* AsyncPhotoOfTheDaySequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPhotoOfTheDaySequence.swift; sourceTree = "<group>"; };
+		523C5DCF2A797B0B00CCB5B2 /* PicByDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicByDateView.swift; sourceTree = "<group>"; };
+		523C5DD12A79829500CCB5B2 /* EndlessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		523C5D982A7817E900CCB5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523C5DBF2A78256900CCB5B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +77,10 @@
 		523C5D922A7817E900CCB5B2 = {
 			isa = PBXGroup;
 			children = (
+				523C5DB82A781D4200CCB5B2 /* AstronomyPicOfTheDay.plist */,
+				523C5DBC2A7820DC00CCB5B2 /* AstronomyURL.swift */,
 				523C5D9D2A7817E900CCB5B2 /* SpaceTest */,
+				523C5DC32A78256900CCB5B2 /* SpaceTestTests */,
 				523C5D9C2A7817E900CCB5B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				523C5D9B2A7817E900CCB5B2 /* SpaceTest.app */,
+				523C5DC22A78256900CCB5B2 /* SpaceTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +97,14 @@
 		523C5D9D2A7817E900CCB5B2 /* SpaceTest */ = {
 			isa = PBXGroup;
 			children = (
+				523C5DB12A7818CF00CCB5B2 /* Views */,
+				523C5DAE2A78188700CCB5B2 /* DataModels */,
 				523C5D9E2A7817E900CCB5B2 /* SpaceTestApp.swift */,
 				523C5DA02A7817E900CCB5B2 /* ContentView.swift */,
 				523C5DA22A7817EA00CCB5B2 /* Assets.xcassets */,
 				523C5DA42A7817EA00CCB5B2 /* Preview Content */,
+				523C5DBA2A781FD700CCB5B2 /* SpacePhotoFetcher.swift */,
+				523C5DCD2A79788600CCB5B2 /* AsyncPhotoOfTheDaySequence.swift */,
 			);
 			path = SpaceTest;
 			sourceTree = "<group>";
@@ -65,6 +115,35 @@
 				523C5DA52A7817EA00CCB5B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		523C5DAE2A78188700CCB5B2 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				523C5DAC2A78182000CCB5B2 /* SpacePhoto.swift */,
+				523C5DAF2A78189700CCB5B2 /* Photos.swift */,
+				523C5DCB2A782B3400CCB5B2 /* AstronomyPicOfTheDay.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		523C5DB12A7818CF00CCB5B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				523C5DB42A7818EB00CCB5B2 /* PhotoView.swift */,
+				523C5DB62A7819EB00CCB5B2 /* CatalogView.swift */,
+				523C5DCF2A797B0B00CCB5B2 /* PicByDateView.swift */,
+				523C5DD12A79829500CCB5B2 /* EndlessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		523C5DC32A78256900CCB5B2 /* SpaceTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				523C5DC42A78256900CCB5B2 /* SpaceTestTests.swift */,
+			);
+			path = SpaceTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +166,24 @@
 			productReference = 523C5D9B2A7817E900CCB5B2 /* SpaceTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		523C5DC12A78256900CCB5B2 /* SpaceTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523C5DC82A78256900CCB5B2 /* Build configuration list for PBXNativeTarget "SpaceTestTests" */;
+			buildPhases = (
+				523C5DBE2A78256900CCB5B2 /* Sources */,
+				523C5DBF2A78256900CCB5B2 /* Frameworks */,
+				523C5DC02A78256900CCB5B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523C5DC72A78256900CCB5B2 /* PBXTargetDependency */,
+			);
+			name = SpaceTestTests;
+			productName = SpaceTestTests;
+			productReference = 523C5DC22A78256900CCB5B2 /* SpaceTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +196,10 @@
 				TargetAttributes = {
 					523C5D9A2A7817E900CCB5B2 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					523C5DC12A78256900CCB5B2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 523C5D9A2A7817E900CCB5B2;
 					};
 				};
 			};
@@ -116,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				523C5D9A2A7817E900CCB5B2 /* SpaceTest */,
+				523C5DC12A78256900CCB5B2 /* SpaceTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +229,14 @@
 			files = (
 				523C5DA62A7817EA00CCB5B2 /* Preview Assets.xcassets in Resources */,
 				523C5DA32A7817EA00CCB5B2 /* Assets.xcassets in Resources */,
+				523C5DB92A781D4200CCB5B2 /* AstronomyPicOfTheDay.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523C5DC02A78256900CCB5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +247,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C5DCE2A79788600CCB5B2 /* AsyncPhotoOfTheDaySequence.swift in Sources */,
+				523C5DD22A79829500CCB5B2 /* EndlessView.swift in Sources */,
+				523C5DB02A78189700CCB5B2 /* Photos.swift in Sources */,
+				523C5DD02A797B0B00CCB5B2 /* PicByDateView.swift in Sources */,
 				523C5DA12A7817E900CCB5B2 /* ContentView.swift in Sources */,
+				523C5DAD2A78182000CCB5B2 /* SpacePhoto.swift in Sources */,
+				523C5DBB2A781FD700CCB5B2 /* SpacePhotoFetcher.swift in Sources */,
+				523C5DBD2A7820DC00CCB5B2 /* AstronomyURL.swift in Sources */,
+				523C5DB52A7818EB00CCB5B2 /* PhotoView.swift in Sources */,
+				523C5DCC2A782B3400CCB5B2 /* AstronomyPicOfTheDay.swift in Sources */,
+				523C5DB72A7819EB00CCB5B2 /* CatalogView.swift in Sources */,
 				523C5D9F2A7817E900CCB5B2 /* SpaceTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		523C5DBE2A78256900CCB5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523C5DC52A78256900CCB5B2 /* SpaceTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523C5DC72A78256900CCB5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523C5D9A2A7817E900CCB5B2 /* SpaceTest */;
+			targetProxy = 523C5DC62A78256900CCB5B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		523C5DA72A7817EA00CCB5B2 /* Debug */ = {
@@ -317,6 +453,50 @@
 			};
 			name = Release;
 		};
+		523C5DC92A78256900CCB5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PickledGames.SpaceTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceTest";
+			};
+			name = Debug;
+		};
+		523C5DCA2A78256900CCB5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 363P6K3ZSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PickledGames.SpaceTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +514,15 @@
 			buildConfigurations = (
 				523C5DAA2A7817EA00CCB5B2 /* Debug */,
 				523C5DAB2A7817EA00CCB5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523C5DC82A78256900CCB5B2 /* Build configuration list for PBXNativeTarget "SpaceTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523C5DC92A78256900CCB5B2 /* Debug */,
+				523C5DCA2A78256900CCB5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

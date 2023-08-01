@@ -7,5 +7,7 @@
         <page name='Async Await'/>
         <page name='Discover Concurrency In SwiftUI'/>
         <page name='Explore Structured Concurrency In Swift'/>
+        <page name='Use Async Await with URLSession'/>
+        <page name='Meet Async Sequence'/>
     </pages>
 </playground>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>astroComponents</key>
+	<dict>
+		<key>path</key>
+		<string>/planetary/apod</string>
+		<key>host</key>
+		<string>api.nasa.gov</string>
+		<key>scheme</key>
+		<string>https</string>
+	</dict>
+	<key>urlRoot</key>
+	<string>https://api.nasa.gov/planetary/apod</string>
+	<key>apiKey</key>
+	<string>d1k1nP9xYIEhsJOREuhWjq8AGdthpyIPnfK7og8e</string>
+</dict>
+</plist>
